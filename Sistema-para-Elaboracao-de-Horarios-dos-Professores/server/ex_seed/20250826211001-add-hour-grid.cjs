@@ -5,7 +5,7 @@ const { parse } = require('csv-parse/sync');
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    const csvFilePath = '../server/data/horarios_2025_2.csv';
+    const csvFilePath = './data/horarios_2025_2.csv';
     let fileContent;
 
     // Ler o arquivo CSV
@@ -23,7 +23,7 @@ module.exports = {
     let records = [];
     try {
       records = parse(fileContent, {
-        columns: ['code', 'disciplineId', 'userId', 'dayId', 'hourId', 'turnId', 'calendarId'],
+        columns: ['turnId', 'code', 'disciplineId', 'userId', 'hourId', 'dayId', 'calendarId'],
         skip_empty_lines: true,
         skip_lines_with_error: true,
         skip_lines_with_empty_values: true,
@@ -69,6 +69,24 @@ module.exports = {
         }
       } catch (error) {
         console.error(`--- ERRO ao consultar userId ${userId}:`, error.message);
+        continue;
+      }
+
+      let hourRecord;
+      try {
+        hourRecord = await queryInterface.sequelize.query(
+          `SELECT id FROM hours WHERE id = :hourId`,
+          {
+            replacements: { hourId: parseInt(hourId, 10) },
+            type: queryInterface.sequelize.QueryTypes.SELECT
+          }
+        );
+        if (!hourRecord || hourRecord.length === 0) {
+          console.warn(`--- hourId ${hourId} não encontrado na tabela hours para o código: ${code}`);
+          continue;
+        }
+      } catch (error) {
+        console.error(`--- ERRO ao consultar hourId ${hourId}:`, error.message);
         continue;
       }
 

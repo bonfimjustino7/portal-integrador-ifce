@@ -1,0 +1,51 @@
+_format_version: "3.0"
+_transform: true
+
+services:
+  - name: acl-horarios
+    url: http://acl:8080
+    routes:
+      - name: horarios-exchange
+        paths:
+          - /gateway/horarios
+        strip_path: true
+        methods:
+          - GET
+          - POST
+          - OPTIONS
+
+plugins:
+  - name: jwt
+    config:
+      key_claim_name: iss
+      claims_to_verify:
+        - exp
+      run_on_preflight: false
+  - name: rate-limiting
+    config:
+      minute: 60
+      policy: local
+      fault_tolerant: true
+      hide_client_headers: false
+  - name: cors
+    config:
+      origins:
+        - http://localhost:4000
+      methods:
+        - GET
+        - POST
+        - OPTIONS
+      headers:
+        - Authorization
+        - Content-Type
+        - Accept
+      credentials: true
+      max_age: 3600
+
+consumers:
+  - username: bff-service
+    jwt_secrets:
+      - key: __KEYCLOAK_ISSUER__
+        algorithm: RS256
+        rsa_public_key: |
+__KEYCLOAK_PUBLIC_KEY_PEM__

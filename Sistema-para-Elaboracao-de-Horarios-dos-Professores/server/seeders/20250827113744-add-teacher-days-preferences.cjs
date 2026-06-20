@@ -5,7 +5,7 @@ const { parse } = require('csv-parse/sync');
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    const csvFilePath = '../server/data/horarios_2025_2.csv';
+    const csvFilePath = './data/horarios_2025_2.csv';
     let fileContent;
 
     // Ler o arquivo CSV

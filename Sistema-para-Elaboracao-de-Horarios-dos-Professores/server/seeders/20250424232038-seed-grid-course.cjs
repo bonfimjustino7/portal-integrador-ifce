@@ -8,17 +8,15 @@ module.exports = {
       { type: queryInterface.sequelize.QueryTypes.SELECT }
     );
 
-    courses.forEach(async (course, index) => {
-      await queryInterface.bulkInsert('grid-course', [
-        {
-          id: index + 1,
-          name: `Matriz Curricular - ${course.name}`,
-          courseId: course.id,
-          createdAt: new Date(),
-          updatedAt: new Date()
-        }
-      ]);
-    });
+    const gridCourses = courses.map((course, index) => ({
+      id: index + 1,
+      name: `Matriz Curricular - ${course.name}`,
+      courseId: course.id,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    }));
+
+    await queryInterface.bulkInsert('grid-course', gridCourses);
   },
 
   async down(queryInterface, Sequelize) {

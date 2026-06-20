@@ -23,8 +23,19 @@ router.get('/sistema/horarios-professores/auth/exchange', async (req, res, next)
       username: user.name,
       role: user.role,
     });
+    const bridgeUrl = `/auth-bridge?${params.toString()}`;
 
-    return res.redirect(302, `/auth-bridge?${params.toString()}`);
+    if (req.accepts('json')) {
+      return res.json({
+        token,
+        userId: user.id,
+        username: user.name,
+        role: user.role,
+        bridgeUrl,
+      });
+    }
+
+    return res.redirect(302, bridgeUrl);
   } catch (error) {
     return next(error);
   }

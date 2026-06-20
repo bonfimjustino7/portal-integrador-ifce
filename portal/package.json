@@ -1,0 +1,22 @@
+{
+  "name": "portal-integrador-shell",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 9000",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 9000"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "axios": "^1.7.9",
+    "keycloak-js": "^25.0.6",
+    "single-spa": "^6.0.3",
+    "single-spa-react": "^6.0.2",
+    "vite": "^6.0.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {}
+}

@@ -9,7 +9,7 @@ module.exports = {
     const disciplinesToInsert = [];
     const existingCodes = new Set(); 
 
-    const csvFilePath = '../server/data/disciplines.csv';
+    const csvFilePath = './data/disciplines.csv';
 
     let fileContent;
     try {

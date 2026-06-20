@@ -1,4 +1,49 @@
 services:
+  portal:
+    build: ./portal
+    ports:
+      - "9000:9000"
+    environment:
+      VITE_BFF_URL: http://localhost:4000
+      VITE_KEYCLOAK_URL: http://localhost:8180
+      VITE_KEYCLOAK_REALM: university
+      VITE_KEYCLOAK_CLIENT_ID: painel-integrador
+    depends_on:
+      - bff
+      - keycloak
+
+  bff:
+    build: ./bff
+    ports:
+      - "4000:4000"
+    environment:
+      PORT: 4000
+      KONG_URL: http://kong:8000
+      KEYCLOAK_URL: http://keycloak:8080
+      KEYCLOAK_REALM: university
+      CORS_ORIGIN: http://localhost:9000
+      ACL_PUBLIC_URL: http://localhost:8080
+    depends_on:
+      - kong
+
+  kong:
+    build: ./kong
+    environment:
+      KONG_DATABASE: "off"
+      KONG_DECLARATIVE_CONFIG: /kong/generated/kong.yml
+      KONG_PROXY_ACCESS_LOG: /dev/stdout
+      KONG_ADMIN_ACCESS_LOG: /dev/stdout
+      KONG_PROXY_ERROR_LOG: /dev/stderr
+      KONG_ADMIN_ERROR_LOG: /dev/stderr
+      KEYCLOAK_INTERNAL_REALM_URL: http://keycloak:8080/realms/university
+      KEYCLOAK_PUBLIC_ISSUER: http://localhost:8180/realms/university
+    expose:
+      - "8000"
+      - "8001"
+    depends_on:
+      - acl
+      - keycloak
+
   acl:
     build: ./acl
     ports:
@@ -76,10 +121,9 @@ services:
 
   keycloak:
     image: quay.io/keycloak/keycloak:25.0
-    command: ["start-dev", "--import-realm", "--hostname=http://keycloak:8080"]
+    command: ["start-dev", "--import-realm", "--hostname=http://localhost:8180", "--hostname-strict=false"]
     ports:
       - "8180:8080"
-      - "9000:9000"
     environment:
       KEYCLOAK_ADMIN: admin
       KEYCLOAK_ADMIN_PASSWORD: admin
