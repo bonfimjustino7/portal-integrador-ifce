@@ -1,0 +1,794 @@
+curso,semestre,disciplina,tipo
+1,1,Cálculo 1,Obrigatória
+1,1,Probabilidade e Estatística,Obrigatória
+1,1,Fundamentos de Sistemas de Informação,Obrigatória
+1,1,Inglês Instrumental,Obrigatória
+1,1,Lógica Matemática,Obrigatória
+1,1,Tecnologias Web,Obrigatória
+1,2,Metodologia do Trabalho Científico,Obrigatória
+1,2,Introdução à Administração,Obrigatória
+1,2,Lógica e Linguagem de Programação,Obrigatória
+1,2,Arquitetura de Computadores,Obrigatória
+1,2,Redes de Computadores I,Obrigatória
+1,3,Programação Estruturada e Estrutura de Dados,Obrigatória
+1,3,Gerência de Redes,Obrigatória
+1,3,Banco de Dados I,Obrigatória
+1,3,Introdução à Contabilidade e Finanças,Obrigatória
+1,3,Sistemas Operacionais,Obrigatória
+1,4,Sociologia Aplicada a Ética Profissional,Obrigatória
+1,4,Design e Multimídia,Obrigatória
+1,4,Processamento Digital de Imagens,Obrigatória
+1,4,Programação Orientada a Objetos,Obrigatória
+1,4,Sistemas Distribuídos,Obrigatória
+1,4,Construção e Análise de Algoritmos,Obrigatória
+1,5,Banco de Dados II,Obrigatória
+1,5,Engenharia de Software,Obrigatória
+1,5,Interface Homem-Computador,Obrigatória
+1,5,Gerência de Projetos,Obrigatória
+1,5,Legislação e Informática,Obrigatória
+1,5,Programação Web I,Obrigatória
+1,6,Comércio Eletrônico,Obrigatória
+1,6,Análise e Projeto de Sistemas,Obrigatória
+1,6,Marketing,Obrigatória
+1,6,Projeto Integrador I,Obrigatória
+1,6,Programação Web II,Obrigatória
+1,6,Redes de Computadores II,Obrigatória
+1,7,Laboratório e Desenvolvimento de Sistemas,Obrigatória
+1,7,Governança de Tecnologia da Informação,Obrigatória
+1,7,Inteligência Computacional,Obrigatória
+1,7,Projeto Integrador II,Obrigatória
+1,7,Sistemas de Apoio a Decisão,Obrigatória
+1,8,Auditoria e Segurança de Sistemas de Informação,Obrigatória
+1,8,Programação para Dispositivos Móveis,Obrigatória
+1,8,Empreendedorismo,Obrigatória
+1,8,Introdução ao Desenvolvimento de Jogos Digitais,Obrigatória
+1,8,Responsabilidade Social e Ambiental,Obrigatória
+1,8,Trabalho de Conclusão de Curso,Obrigatória
+1,8,Álgebra Linear,Optativa
+1,6,Libras,Optativa
+1,8,Engenharia de Vendas e Negócios de Informática,Optativa
+1,8,Computação Gráfica,Optativa
+1,8,Gerenciamento de Projetos em Softwares Livres,Optativa
+1,8,Higiene e Segurança do Trabalho,Optativa
+2,1,Cálculo 1,Obrigatória
+2,1,Química Geral e Experimental,Obrigatória
+2,1,Introdução a Engenharia Elétrica,Obrigatória
+2,1,Álgebra Vetorial,Obrigatória
+2,1,Lógica de Programação,Obrigatória
+2,1,Metodologia do Trabalho Científico,Obrigatória
+2,1,Desenho Técnico,Obrigatória
+2,2,Cálculo 2,Obrigatória
+2,2,Física 1,Obrigatória
+2,2,Álgebra Linear,Obrigatória
+2,2,Programação Orientada a Objetos,Obrigatória
+2,2,Eletrônica Digital,Obrigatória
+2,3,Cálculo 3,Obrigatória
+2,3,Física 2,Obrigatória
+2,3,Materiais Elétricos e Magnéticos,Obrigatória
+2,3,Sistemas Microprocessados,Obrigatória
+2,3,Equações Diferenciais,Obrigatória
+2,4,Probabilidade e Estatística,Obrigatória
+2,4,Cálculo Numérico,Obrigatória
+2,4,Física 3,Obrigatória
+2,4,Variáveis Complexas,Obrigatória
+2,4,Circuitos Elétricos,Obrigatória
+2,5,Resistência dos Materiais,Obrigatória
+2,5,Circuitos Elétricos 2,Obrigatória
+2,5,Análise de Sinais e Sistema Lineares,Obrigatória
+2,5,Eletromagnetismo,Obrigatória
+2,5,Eletrônica 1,Obrigatória
+2,6,Sistemas de Comunicações,Obrigatória
+2,6,Sistemas de Controle,Obrigatória
+2,6,Conversão Eletromecânica de Energia,Obrigatória
+2,6,Geração Transmissão e Distribuição de Energia Elétrica,Obrigatória
+2,6,Eletrônica 2,Obrigatória
+2,7,Sistemas Elétricos 1,Obrigatória
+2,7,Instalações Elétricas,Obrigatória
+2,7,Máquinas Elétricas 1,Obrigatória
+2,7,Eletrônica de Potência 1,Obrigatória
+2,8,Higiene e Segurança do Trabalho,Obrigatória
+2,8,Fontes Alternativas e Renováveis de Energia,Obrigatória
+2,8,Acionamento de Máquinas Elétricas,Obrigatória
+2,8,Fenômenos de Transportes,Obrigatória
+2,8,Máquinas Elétricas 2,Obrigatória
+2,8,Transformadores,Obrigatória
+2,8,Controle Digital,Obrigatória
+2,8,Instrumentação Eletrônica,Obrigatória
+2,8,Eletrônica de Potência II,Obrigatória
+2,8,Sistemas de Automação Industrial I,Obrigatória
+2,8,Sistema Elétrico II,Obrigatória
+2,9,Inglês Instrumental,Obrigatória
+2,9,Economia,Obrigatória
+2,9,Projeto Social,Obrigatória
+2,9,Gerência de Projetos,Obrigatória
+2,9,Introdução ao Direito,Obrigatória
+2,9,Subestações,Obrigatória
+2,9,Equipamentos Elétricos,Obrigatória
+2,9,Operação e Controle de Sistemas Elétricos de Potência,Obrigatória
+2,9,Redes de Computadores,Obrigatória
+2,9,Circuitos para Comunicação,Obrigatória
+2,9,Processamento Digital de Sinais,Obrigatória
+2,9,Inteligência Computacional,Obrigatória
+2,9,Sistemas de Automação Industrial II,Obrigatória
+2,10,Engenharia Econômica,Obrigatória
+2,10,Engenharia Econômica,Obrigatória
+2,10,Empreendedorismo,Obrigatória
+2,10,Introdução à Administração,Obrigatória
+2,10,Trabalho de Conclusão de Curso,Obrigatória
+2,10,Proteção de Sistemas Elétricos,Obrigatória
+2,10,Qualidade de Energia,Obrigatória
+2,10,Técnicas de Alta Tensão,Obrigatória
+2,10,Projeto de Circuitos Integrados,Obrigatória
+2,10,Sistemas Embarcados,Obrigatória
+2,10,Sistemas de Aquisição de Dados,Obrigatória
+2,10,Gerência e Controle de Produção,Obrigatória
+2,10,Robótica,Obrigatória
+2,10,Artes,Optativa
+2,10,Libras,Optativa
+2,10,Educação Física,Optativa
+3,1,Cálculo 1,Obrigatória
+3,1,Lógica de Programação,Obrigatória
+3,1,Sociologia Industrial,Obrigatória
+3,1,Química Geral,Obrigatória
+3,1,Ética e Cidadania,Obrigatória
+3,1,Desenho Técnico,Obrigatória
+3,2,Cálculo 2,Obrigatória
+3,2,Física 1,Obrigatória
+3,2,Probabilidade e Estatística,Obrigatória
+3,2,Desenho Assistido por Computador,Obrigatória
+3,2,Álgebra Linear,Obrigatória
+3,3,Cálculo 3,Obrigatória
+3,3,Física 2,Obrigatória
+3,3,Metrologia,Obrigatória
+3,3,Física Experimental I,Obrigatória
+3,3,Ciências do Ambiente,Obrigatória
+3,3,Mecânica Geral,Obrigatória
+3,4,Higiene e Segurança do Trabalho,Obrigatória
+3,4,Física 3,Obrigatória
+3,4,Metodologia Científica e Tecnológica,Obrigatória
+3,4,Materiais I,Obrigatória
+3,4,Métodos Numéricos,Obrigatória
+3,4,Direito para Engenharia,Obrigatória
+3,5,Materiais II,Obrigatória
+3,5,Processo de Fabricação I,Obrigatória
+3,5,Mecanismos,Obrigatória
+3,5,Resistência dos Materiais,Obrigatória
+3,5,Física Experimental II,Obrigatória
+3,5,Optativa,Optativa
+3,6,Termodinâmica,Obrigatória
+3,6,Mecânica dos Sólidos,Obrigatória
+3,6,Soldagem,Obrigatória
+3,6,Processos de Fabricação II,Obrigatória
+3,6,Ensaios Mecânicos,Obrigatória
+3,7,Eletrotécnica,Obrigatória
+3,7,Gestão da Manutenção Industrial,Obrigatória
+3,7,Mecânica dos Fluidos,Obrigatória
+3,7,Sistemas Mecânicos I,Obrigatória
+3,7,Administração e Empreendedorismo,Obrigatória
+3,7,Laboratório de Processos de Fabricação,Obrigatória
+3,8,Transportadores Industriais,Obrigatória
+3,8,Transferência de Calor,Obrigatória
+3,8,Acionamentos Hidráulicos e Pneumáticos,Obrigatória
+3,8,Controle de Qualidade,Obrigatória
+3,8,Manutenção Industrial,Obrigatória
+3,8,Sistemas Mecânicos II,Obrigatória
+3,9,Máquinas Térmicas e de Fluxo,Obrigatória
+3,9,CNC/CAM,Obrigatória
+3,9,Economia,Obrigatória
+3,9,Planejamento e Controle da Produção,Obrigatória
+3,9,Tratamentos Térmicos e Termoquímicos,Obrigatória
+3,9,Optativa,Optativa
+3,10,Projeto Social,Obrigatória
+3,10,Trabalho de Conclusão de Curso,Obrigatória
+3,10,Projeto de Engenharia,Obrigatória
+3,10,Optativa,Optativa
+3,5,Libras,Optativa
+3,10,Corrosão e Proteção Anticorrosiva,Optativa
+3,10,Tribologia e Lubrificação,Optativa
+3,5,Máquinas de Elevação,Optativa
+3,10,Gestão de Projetos,Optativa
+3,5,Educação Física,Optativa
+3,5,Manufatura Integrada por Componentes,Optativa
+3,10,Refrigeração Industrial,Optativa
+3,5,Materiais Compostos,Optativa
+3,9,Metalurgia da Soldagem,Optativa
+3,9,Ergonomia,Optativa
+3,9,Vibrações Mecânicas,Optativa
+3,10,Robótica I,Optativa
+3,9,Inglês Instrumental,Optativa
+3,9,Comunicação e Linguagem,Optativa
+3,9,Energias Renováveis,Optativa
+4,1,Cálculo 1,Obrigatória
+4,1,Física Aplicada,Obrigatória
+4,1,Eletricidade Corrente Contínua,Obrigatória
+4,1,Linguagem de Programação,Obrigatória
+4,1,Materiais para Construção Mecânica,Obrigatória
+4,2,Eletromagnetismo,Obrigatória
+4,2,Eletrônica Analógica,Obrigatória
+4,2,Resistência dos Materiais,Obrigatória
+4,2,Metrologia Dimensional,Obrigatória
+4,2,Álgebra Linear,Obrigatória
+4,3,Inglês Instrumental,Obrigatória
+4,3,Metodologia do Trabalho Científico,Obrigatória
+4,3,Eletricidade Corrente Alternada,Obrigatória
+4,3,Eletrônica Digital,Obrigatória
+4,3,Desenho Técnico,Obrigatória
+4,3,Elementos de Máquinas,Obrigatória
+4,4,Eletrônica Industrial,Obrigatória
+4,4,Mecanismos,Obrigatória
+4,4,Sistemas de Controle,Obrigatória
+4,4,Processo de Fabricação Mecânica,Obrigatória
+4,4,Desenho Assistido por Computador,Obrigatória
+4,4,Microcontroladores,Obrigatória
+4,5,Instrumentação,Obrigatória
+4,5,Acionamentos de Máquinas I,Obrigatória
+4,5,Comandos Eletroeletrônicos,Obrigatória
+4,5,Higiene e Segurança do Trabalho,Obrigatória
+4,5,Usinagem,Obrigatória
+4,5,Planejamento e Controle da Produção,Obrigatória
+4,6,Acionamentos de Máquinas II,Obrigatória
+4,6,Sistemas de Controle Distribuído,Obrigatória
+4,6,Robótica I,Obrigatória
+4,6,CAM/CNC/CIM,Obrigatória
+4,6,Acionamento Hidráulico e Pneumático,Obrigatória
+4,7,Projeto Social,Obrigatória
+4,7,Projeto de Conclusão de Curso,Obrigatória
+4,7,Sistema de Supervisão,Obrigatória
+4,7,Controle de Qualidade,Obrigatória
+4,7,Gestão de Manutenção,Obrigatória
+4,7,Robótica II,Obrigatória
+4,7,Aspectos Legais de Gestão Empresarial,Obrigatória
+4,3,Cálculo 2,Optativa
+4,7,Inteligência Artificial,Optativa
+4,4,Libras,Optativa
+4,5,Linguagem de Programação Estruturada,Optativa
+5,1,Fundamentos da Educação Superior,Obrigatória
+5,1,Educação e Diversidade,Obrigatória
+5,1,Metodologia da Pesquisa I,Obrigatória
+5,1,Estrutura e Funcionamento do Ensino Superior,Obrigatória
+5,2,Metodologia da Pesquisa II,Obrigatória
+5,2,Fundamentos Psicológicos da Educação,Obrigatória
+5,2,Didática do Ensino Superior,Obrigatória
+5,2,Novas Tecnologias e Formação Docente,Obrigatória
+5,3,Currículo Planejamento e Avaliação Educacional,Obrigatória
+5,3,Trabalho de Conclusão de Curso,Obrigatória
+5,3,Empreendedorismo e Redes de Cooperação em Educação,Obrigatória
+5,3,Política Gestão e Avaliação do Ensino Superior,Obrigatória
+5,3,Tópicos Especiais I – Ludicidade na Educação Superior,Optativa
+5,3,Tópicos Especiais II – Educação Profissional e Tecnológica,Optativa
+5,3,Tópicos Especiais III – Educação a Distância,Optativa
+6,1,Comunicação e Linguagem,Obrigatória
+6,1,Fundamentos da Matemática I,Obrigatória
+6,1,Fundamentos Sócio-Filosóficos da Educação,Obrigatória
+6,1,Geometria Plana e Espacial,Obrigatória
+6,1,Introdução às Ciências,Obrigatória
+6,1,Trigonometria,Obrigatória
+6,2,Desenho Geométrico,Obrigatória
+6,2,Fundamentos da Matemática II,Obrigatória
+6,2,Geometria Analítica Plana e Números Complexos,Obrigatória
+6,2,História da Educação no Brasil,Obrigatória
+6,2,Laboratório do Ensino da Matemática,Obrigatória
+6,2,Lógica Matemática,Obrigatória
+6,2,Inglês Instrumental,Obrigatória
+6,3,Cálculo 1,Obrigatória
+6,3,Estrutura e Funcionamento do Ensino,Obrigatória
+6,3,Fundamentos da Matemática III,Obrigatória
+6,3,Geometria Analítica Espacial,Obrigatória
+6,3,Psicologia do Desenvolvimento,Obrigatória
+6,4,Cálculo 2,Obrigatória
+6,4,Currículos e Programas,Obrigatória
+6,4,Didática Educacional,Obrigatória
+6,4,Informática Aplicada ao Ensino,Obrigatória
+6,4,Libras,Obrigatória
+6,4,Probabilidades,Obrigatória
+6,5,Álgebra Linear,Obrigatória
+6,5,Cálculo 3,Obrigatória
+6,5,Estágio I,Obrigatória
+6,5,Estatística,Obrigatória
+6,5,Metodologia do Trabalho Científico,Obrigatória
+6,5,Programa Residência Pedagógica,Obrigatória
+6,5,Psicologia da Aprendizagem,Obrigatória
+6,6,Equações Diferenciais e Séries,Obrigatória
+6,6,Estágio II,Obrigatória
+6,6,Lógica de Programação,Obrigatória
+6,6,Projeto Social,Obrigatória
+6,6,Teoria dos Números,Obrigatória
+6,6,Organização e Gestão da Educação Brasileira,Obrigatória
+6,7,Cálculo Numérico,Obrigatória
+6,7,Estágio III,Obrigatória
+6,7,Estruturas Algébricas,Obrigatória
+6,7,Matemática Comercial e Financeira,Obrigatória
+6,7,Metodologia do Ensino da Matemática,Obrigatória
+6,8,Estágio IV,Obrigatória
+6,8,Introdução à Variável Complexa,Obrigatória
+6,8,História da Matemática,Obrigatória
+6,8,Introdução à Análise,Obrigatória
+6,8,Monografia,Obrigatória
+6,2,Física Aplicada,Optativa
+6,3,Tópicos de Álgebra,Optativa
+6,4,Metrologia Dimensional,Optativa
+6,5,Linguagem de Programação,Optativa
+6,6,Arte de Resolver Problemas,Optativa
+6,7,Matemática Computacional,Optativa
+6,8,Educação Inclusiva,Optativa
+7,1,Introdução às Ciências da Natureza I,Obrigatória
+7,1,Comunicação e Linguagem,Obrigatória
+7,1,Pré-Cálculo,Obrigatória
+7,1,Introdução à Física I,Obrigatória
+7,1,Metodologia do Trabalho Científico,Obrigatória
+7,1,Psicologia do Desenvolvimento,Obrigatória
+7,1,Fundamentos Filosóficos e Sociológicos da Educação,Obrigatória
+7,2,Cálculo Diferencial e Integral I,Obrigatória
+7,2,Geometria Analítica e Álgebra Linear,Obrigatória
+7,2,Introdução a Física II,Obrigatória
+7,2,Introdução às Ciências da Natureza II,Obrigatória
+7,2,História da Educação,Obrigatória
+7,2,Psicologia da Aprendizagem,Obrigatória
+7,3,Cálculo Diferencial e Integral II,Obrigatória
+7,3,Mecânica Básica I,Obrigatória
+7,3,Seminário I: Educação Ambiental,Obrigatória
+7,3,Inglês Instrumental,Obrigatória
+7,3,Política Educacional,Obrigatória
+7,3,Didática,Obrigatória
+7,4,Cálculo Diferencial e Integral III,Obrigatória
+7,4,Mecânica Básica II,Obrigatória
+7,4,Física Experimental I,Obrigatória
+7,4,Metodologia do Ensino da Mecânica,Obrigatória
+7,4,Estágio Supervisionado I,Obrigatória
+7,5,Cálculo Diferencial e Integral IV,Obrigatória
+7,5,Eletricidade e Magnetismo I,Obrigatória
+7,5,Termodinâmica,Obrigatória
+7,5,Metodologia do Ensino de Termodinâmica,Obrigatória
+7,5,Currículos e Programas,Obrigatória
+7,5,Estágio Supervisionado II,Obrigatória
+7,6,Projeto Social,Obrigatória
+7,6,Eletricidade e Magnetismo II,Obrigatória
+7,6,Oscilações e Ondas,Obrigatória
+7,6,Metodologia do Ensino de Eletricidade e Magnetismo,Obrigatória
+7,6,Física Experimental II,Obrigatória
+7,6,Estágio Supervisionado III,Obrigatória
+7,7,Trabalho de Conclusão de Curso I,Obrigatória
+7,7,Ética,Obrigatória
+7,7,Física Moderna,Obrigatória
+7,7,História da Física,Obrigatória
+7,7,Libras,Obrigatória
+7,7,Estágio Supervisionado IV,Obrigatória
+7,8,Introdução à Mecânica Quântica,Obrigatória
+7,8,Física Experimental III,Obrigatória
+7,8,Educação Inclusiva,Obrigatória
+7,8,Metodologia do Ensino de Ética e Física Moderna,Obrigatória
+7,8,Trabalho de Conclusão de Curso II,Obrigatória
+7,8,Seminários II – Educação Para as Relações Étnico-Raciais,Obrigatória
+7,8,Informática Aplicada ao Ensino da Física,Optativa
+7,8,Eletrodinâmica,Optativa
+7,8,Eletrônica Analógica,Optativa
+7,8,Eletrônica Digital,Optativa
+7,8,Linguagem de Programação,Optativa
+7,8,Física Moderna II,Optativa
+8,1,Artes I,Obrigatória
+8,1,Biologia I,Obrigatória
+8,1,Educação Física I,Obrigatória
+8,1,Filosofia I,Obrigatória
+8,1,Física I,Obrigatória
+8,1,Geografia I,Obrigatória
+8,1,História I,Obrigatória
+8,1,Inglês I,Obrigatória
+8,1,Português I,Obrigatória
+8,1,Química I,Obrigatória
+8,1,Introdução ao Curso e Orientação Profissional,Obrigatória
+8,1,Informática Básica,Obrigatória
+8,1,Matemática I,Obrigatória
+8,1,Desenho Técnico,Obrigatória
+8,2,Artes II,Obrigatória
+8,2,Biologia II,Obrigatória
+8,2,Espanhol I,Obrigatória
+8,2,Física II,Obrigatória
+8,2,Geografia II,Obrigatória
+8,2,História II,Obrigatória
+8,2,Matemática II,Obrigatória
+8,2,Português II,Obrigatória
+8,2,Química II,Obrigatória
+8,2,Sociologia I,Obrigatória
+8,2,Higiene e Segurança do Trabalho,Obrigatória
+8,2,Técnicas de Manutenção,Obrigatória
+8,2,Educação Física II,Obrigatória
+8,3,Biologia III,Obrigatória
+8,3,Artes III,Obrigatória
+8,3,Desenho Assistido por Computador,Obrigatória
+8,3,Filosofia II,Obrigatória
+8,3,Geografia III,Obrigatória
+8,3,Inglês II,Obrigatória
+8,3,História III,Obrigatória
+8,3,Matemática III,Obrigatória
+8,3,Português III,Obrigatória
+8,3,Química III,Obrigatória
+8,3,Análise de Circuitos,Obrigatória
+8,3,Educação Física III,Obrigatória
+8,3,Física III,Obrigatória
+8,4,Biologia IV,Obrigatória
+8,4,Espanhol II,Obrigatória
+8,4,Física IV,Obrigatória
+8,4,Geografia IV,Obrigatória
+8,4,História IV,Obrigatória
+8,4,Matemática IV,Obrigatória
+8,4,Português IV,Obrigatória
+8,4,Química IV,Obrigatória
+8,4,Sociologia II,Obrigatória
+8,4,Eletricidade Corrente Alternada,Obrigatória
+8,4,Eletrônica Básica,Obrigatória
+8,4,Educação Física IV,Obrigatória
+8,4,Artes IV,Obrigatória
+8,5,Biologia V,Obrigatória
+8,5,Educação Física V,Obrigatória
+8,5,Filosofia III,Obrigatória
+8,5,Física V,Obrigatória
+8,5,Geografia V,Obrigatória
+8,5,Inglês III,Obrigatória
+8,5,Matemática V,Obrigatória
+8,5,Português V,Obrigatória
+8,5,Química V,Obrigatória
+8,5,Comandos Elétricos,Obrigatória
+8,5,Eletrônica Industrial,Obrigatória
+8,5,Gestão e Empreendedorismo,Obrigatória
+8,5,Instalações Elétricas em Baixa Tensão,Obrigatória
+8,5,História V,Obrigatória
+8,5,Transformadores,Obrigatória
+8,5,Medidas Elétricas,Obrigatória
+8,6,Biologia VI,Obrigatória
+8,6,Física VI,Obrigatória
+8,6,Geografia VI,Obrigatória
+8,6,História VI,Obrigatória
+8,6,Matemática VI,Obrigatória
+8,6,Português VI,Obrigatória
+8,6,Química VI,Obrigatória
+8,6,Máquinas de Corrente Alternada,Obrigatória
+8,6,Subestações Industriais,Obrigatória
+8,6,Sistemas de Potência,Obrigatória
+8,6,Educação Física VI,Obrigatória
+8,6,Espanhol III,Obrigatória
+8,6,Sociologia III,Obrigatória
+8,6,Máquinas de Corrente Contínua,Obrigatória
+8,6,Redes de Distribuição,Obrigatória
+8,6,Instalações Elétricas Industriais,Obrigatória
+8,6,Automação Industrial,Obrigatória
+9,1,Análise de Circuitos CC,Obrigatória
+9,1,Matemática Aplicada,Obrigatória
+9,1,Desenho Técnico,Obrigatória
+9,1,Informática Básica,Obrigatória
+9,1,Gestão e Empreendedorismo,Obrigatória
+9,1,Informática Básica,Obrigatória
+9,1,Inglês Instrumental,Obrigatória
+9,2,Análise de Circuitos CA,Obrigatória
+9,2,Desenho Assistido por Computador,Obrigatória
+9,2,Medidas Elétricas,Obrigatória
+9,2,Controle e Planejamento de Manutenção,Obrigatória
+9,2,Eletrônica Básica,Obrigatória
+9,2,Eletromagnetismo Aplicado,Obrigatória
+9,3,Gerenciamento de Energia,Obrigatória
+9,3,Instalações Elétricas Prediais,Obrigatória
+9,3,Automação Industrial,Obrigatória
+9,3,Comandos Elétricos,Obrigatória
+9,3,Transformadores,Obrigatória
+9,4,Energias Renováveis,Obrigatória
+9,4,Máquinas Elétricas,Obrigatória
+9,4,Sistemas de Potência,Obrigatória
+9,4,Subestações Industriais,Obrigatória
+9,4,Eletrônica de Potência,Obrigatória
+9,4,Redes de Distribuição,Obrigatória
+9,4,Educação Física,Optativa
+9,4,Libras,Optativa
+10,1,Análise de Circuitos,Obrigatória
+10,1,Higiene e Segurança do Trabalho,Obrigatória
+10,1,Eletromagnetismo,Obrigatória
+10,1,Física Aplicada,Obrigatória
+10,1,Gestão e Empreendedorismo,Obrigatória
+10,1,Informática Básica,Obrigatória
+10,2,Comandos Elétricos,Obrigatória
+10,2,Desenho Assistido por Computador,Obrigatória
+10,2,Inglês Instrumental,Obrigatória
+10,2,Eletricidade Corrente Alternada,Obrigatória
+10,2,Eletrônica Básica,Obrigatória
+10,2,Eletrônica Digital,Obrigatória
+10,3,Automatização Industrial,Obrigatória
+10,3,Instalações Elétricas Prediais,Obrigatória
+10,3,Redes de Distribuição,Obrigatória
+10,3,Máquinas de Corrente Contínua,Obrigatória
+10,3,Transformadores,Obrigatória
+10,3,Técnicas de Manutenção,Obrigatória
+10,4,Máquinas de Corrente Alternada,Obrigatória
+10,4,Máquinas Elétricas,Obrigatória
+10,4,Instalações Elétricas Industriais,Obrigatória
+10,4,Sistemas de Potência,Obrigatória
+10,4,Subestações Industriais,Obrigatória
+10,4,Estágio Supervisionado,Obrigatória
+11,1,Artes I,Obrigatória
+11,1,Biologia I,Obrigatória
+11,1,Educação Física I,Obrigatória
+11,1,Filosofia I,Obrigatória
+11,1,Física I,Obrigatória
+11,1,Geografia I,Obrigatória
+11,1,História I,Obrigatória
+11,1,Inglês I,Obrigatória
+11,1,Português I,Obrigatória
+11,1,Química I,Obrigatória
+11,1,Introdução ao Curso e Orientação Profissional,Obrigatória
+11,1,Matemática I,Obrigatória
+11,1,Introdução a Lógica de Programação,Obrigatória
+11,1,Informática Básica,Obrigatória
+11,2,Espanhol I,Obrigatória
+11,2,Física II,Obrigatória
+11,2,Geografia II,Obrigatória
+11,2,História II,Obrigatória
+11,2,Matemática II,Obrigatória
+11,2,Português II,Obrigatória
+11,2,Química II,Obrigatória
+11,2,Sociologia I,Obrigatória
+11,2,Arquitetura Montagem e Manutenção de Computadores,Obrigatória
+11,2,Lógica e Linguagem de Programação,Obrigatória
+11,2,Tecnologias Web,Obrigatória
+11,2,Artes II,Obrigatória
+11,2,Biologia II,Obrigatória
+11,3,Biologia III,Obrigatória
+11,3,Educação Física II,Obrigatória
+11,3,Espanhol II,Obrigatória
+11,3,Filosofia II,Obrigatória
+11,3,Geografia III,Obrigatória
+11,3,Inglês II,Obrigatória
+11,3,História III,Obrigatória
+11,3,Matemática III,Obrigatória
+11,3,Português III,Obrigatória
+11,3,Química III,Obrigatória
+11,3,Engenharia de Software,Obrigatória
+11,3,Introdução a Estrutura de Dados,Obrigatória
+11,3,Física III,Obrigatória
+11,3,Sistemas Operacionais,Obrigatória
+11,4,Biologia IV,Obrigatória
+11,4,Espanhol III,Obrigatória
+11,4,Física IV,Obrigatória
+11,4,Geografia IV,Obrigatória
+11,4,História IV,Obrigatória
+11,4,Matemática IV,Obrigatória
+11,4,Português IV,Obrigatória
+11,4,Química IV,Obrigatória
+11,4,Sociologia II,Obrigatória
+11,4,Banco de Dados,Obrigatória
+11,4,Programação Orientada a Objetos,Obrigatória
+11,4,Programação WEB,Obrigatória
+11,5,Biologia V,Obrigatória
+11,5,Educação Física III,Obrigatória
+11,5,Espanhol IV,Obrigatória
+11,5,Física V,Obrigatória
+11,5,Geografia V,Obrigatória
+11,5,Inglês III,Obrigatória
+11,5,Matemática V,Obrigatória
+11,5,Português V,Obrigatória
+11,5,Química V,Obrigatória
+11,5,Gestão e Empreendedorismo,Obrigatória
+11,5,Programação para Dispositivos Móveis,Obrigatória
+11,6,Biologia VI,Obrigatória
+11,6,Física VI,Obrigatória
+11,6,Geografia VI,Obrigatória
+11,6,História VI,Obrigatória
+11,6,Matemática VI,Obrigatória
+11,6,Português VI,Obrigatória
+11,6,Química VI,Obrigatória
+11,6,Administração de Redes com Software Livre,Obrigatória
+11,6,Estágio,Obrigatória
+11,6,Laboratório de Desenvolvimento de Software,Obrigatória
+12,1,Artes I,Obrigatória
+12,1,Biologia I,Obrigatória
+12,1,Educação Física I,Obrigatória
+12,1,Filosofia I,Obrigatória
+12,1,Física I,Obrigatória
+12,1,Geografia I,Obrigatória
+12,1,História I,Obrigatória
+12,1,Inglês I,Obrigatória
+12,1,Português I,Obrigatória
+12,1,Química I,Obrigatória
+12,1,Introdução ao Curso e Orientação Profissional,Obrigatória
+12,1,Matemática I,Obrigatória
+12,1,Desenho Técnico,Obrigatória
+12,1,Higiene e Segurança do Trabalho,Obrigatória
+12,1,Informática Básica,Obrigatória
+12,2,Física II,Obrigatória
+12,2,Geografia II,Obrigatória
+12,2,História II,Obrigatória
+12,2,Matemática II,Obrigatória
+12,2,Português II,Obrigatória
+12,2,Química II,Obrigatória
+12,2,Sociologia I,Obrigatória
+12,2,Desenho Assistido por Computador,Obrigatória
+12,2,Gestão e Empreendedorismo,Obrigatória
+12,2,Metrologia,Obrigatória
+12,2,Artes II,Obrigatória
+12,2,Biologia II,Obrigatória
+12,2,Espanhol I,Obrigatória
+12,3,Biologia III,Obrigatória
+12,3,Educação Física II,Obrigatória
+12,3,Espanhol II,Obrigatória
+12,3,Filosofia II,Obrigatória
+12,3,Geografia III,Obrigatória
+12,3,Inglês II,Obrigatória
+12,3,História III,Obrigatória
+12,3,Matemática III,Obrigatória
+12,3,Português III,Obrigatória
+12,3,Química III,Obrigatória
+12,3,Controle de Qualidade,Obrigatória
+12,3,Manutenção de Máquinas e Equipamentos,Obrigatória
+12,3,Física III,Obrigatória
+12,3,Materiais para Construção Mecânica,Obrigatória
+12,3,Planejamento e Controle da Produção,Obrigatória
+12,4,Biologia IV,Obrigatória
+12,4,Espanhol III,Obrigatória
+12,4,Física IV,Obrigatória
+12,4,Geografia IV,Obrigatória
+12,4,História IV,Obrigatória
+12,4,Matemática IV,Obrigatória
+12,4,Português IV,Obrigatória
+12,4,Química IV,Obrigatória
+12,4,Sociologia II,Obrigatória
+12,4,Máquinas Hidráulicas e Pneumáticas,Obrigatória
+12,4,Resistência dos Materiais,Obrigatória
+12,4,Tecnologia Mecânica,Obrigatória
+12,5,Educação Física III,Obrigatória
+12,5,Biologia V,Obrigatória
+12,5,Educação Física III,Obrigatória
+12,5,Espanhol IV,Obrigatória
+12,5,Física V,Obrigatória
+12,5,Geografia V,Obrigatória
+12,5,Inglês III,Obrigatória
+12,5,Matemática V,Obrigatória
+12,5,Português V,Obrigatória
+12,5,Química V,Obrigatória
+12,5,Elementos de Máquinas,Obrigatória
+12,5,Máquinas Térmicas,Obrigatória
+12,5,Tecnologia da Soldagem,Obrigatória
+12,5,Usinagem,Obrigatória
+12,6,Biologia VI,Obrigatória
+12,6,Física VI,Obrigatória
+12,6,Geografia VI,Obrigatória
+12,6,História VI,Obrigatória
+12,6,Matemática VI,Obrigatória
+12,6,Português VI,Obrigatória
+12,6,Química VI,Obrigatória
+12,6,Acionamentos Hidráulicos e Pneumáticos,Obrigatória
+12,6,CAM/CNC/CIM,Obrigatória
+12,6,Comandos Elétricos,Obrigatória
+12,6,Ensaios Mecânicos,Obrigatória
+12,6,Mecanismos,Obrigatória
+12,6,Robótica Industrial,Obrigatória
+13,1,Desenho Técnico,Obrigatória
+13,1,Eletricidade Aplicada,Obrigatória
+13,1,Informática Básica,Obrigatória
+13,1,Inglês Instrumental,Obrigatória
+13,1,Materiais para Construção Mecânica,Obrigatória
+13,1,Mecânica Geral,Obrigatória
+13,1,Metrologia,Obrigatória
+13,2,Bombas Hidráulicas e Compressores,Obrigatória
+13,2,Desenho Assistido por Computador,Obrigatória
+13,2,Gestão e Empreendedorismo,Obrigatória
+13,2,Higiene e Segurança do Trabalho,Obrigatória
+13,2,Mecanismos,Obrigatória
+13,2,Resistência dos Materiais,Obrigatória
+13,2,Robótica Industrial,Obrigatória
+13,3,Acionamentos Hidráulicos e Pneumáticos,Obrigatória
+13,3,CAM/CNC/CIM,Obrigatória
+13,3,Comandos Elétricos,Obrigatória
+13,3,Elementos de Máquinas,Obrigatória
+13,3,Máquinas Térmicas,Obrigatória
+13,3,Usinagem,Obrigatória
+13,4,Controle de Qualidade,Obrigatória
+13,4,Manutenção de Máquinas e Equipamentos,Obrigatória
+13,4,Planejamento e Controle da Produção,Obrigatória
+13,4,Tecnologia da Soldagem,Obrigatória
+13,4,Prática Profissional Supervisionada,Obrigatória
+13,4,Estágio Supervisionado,Obrigatória
+14,1,Desenho Técnico,Obrigatória
+14,1,Eletricidade Aplicada,Obrigatória
+14,1,Informática Básica,Obrigatória
+14,1,Inglês Instrumental,Obrigatória
+14,1,Materiais para Construção Mecânica,Obrigatória
+14,1,Mecânica Geral,Obrigatória
+14,1,Metrologia,Obrigatória
+14,2,Bombas Hidráulicas e Compressores,Obrigatória
+14,2,Desenho Assistido por Computador,Obrigatória
+14,2,Gestão e Empreendedorismo,Obrigatória
+14,2,Higiene e Segurança do Trabalho,Obrigatória
+14,2,Mecanismos,Obrigatória
+14,2,Resistência dos Materiais,Obrigatória
+14,2,Robótica Industrial,Obrigatória
+14,3,Acionamentos Hidráulicos e Pneumáticos,Obrigatória
+14,3,CAM/CNC/CIM,Obrigatória
+14,3,Comandos Elétricos,Obrigatória
+14,3,Elementos de Máquinas,Obrigatória
+14,3,Máquinas Térmicas,Obrigatória
+14,3,Tecnologia Mecânica,Obrigatória
+14,4,Controle de Qualidade,Obrigatória
+14,4,Manutenção de Máquinas e Equipamentos,Obrigatória
+14,4,Planejamento e Controle da Produção,Obrigatória
+14,4,Tecnologia da Soldagem,Obrigatória
+14,4,Usinagem,Obrigatória
+15,1,Comunicação e Redação Empresarial,Obrigatória
+15,1,Inglês Instrumental,Obrigatória
+15,1,Informática e Tecnologias Aplicadas,Obrigatória
+15,1,Introdução à Administração,Obrigatória
+15,1,Gestão de Pessoas,Obrigatória
+15,1,Aspectos Legais de Gestão Empresarial,Obrigatória
+15,1,Matemática Básica e Lógica Matemática,Obrigatória
+15,1,Empreendedorismo e Inovação I,Obrigatória
+15,2,Administração Estratégica,Obrigatória
+15,2,Marketing Digital,Obrigatória
+15,2,Empreendedorismo e Inovação II,Obrigatória
+15,2,Matemática Financeira,Obrigatória
+15,2,Contabilidade Geral,Obrigatória
+15,2,Gestão Financeira,Obrigatória
+15,2,Estatística,Obrigatória
+15,2,Logística,Obrigatória
+15,2,Gestão de Processos e Qualidade,Obrigatória
+15,2,Libras,Optativa
+15,2,Arte Educação Cultural e Música,Optativa
+15,2,Educação Física,Optativa
+16,1,Artes I,Obrigatória
+16,1,Biologia I,Obrigatória
+16,1,Física I,Obrigatória
+16,1,Geografia I,Obrigatória
+16,1,História I,Obrigatória
+16,1,Inglês I,Obrigatória
+16,1,Português I,Obrigatória
+16,1,Química I,Obrigatória
+16,1,Informática Básica,Obrigatória
+16,1,Matemática I,Obrigatória
+16,1,Desenho Técnico,Obrigatória
+16,1,Higiene e Segurança do Trabalho,Obrigatória
+16,1,Desenvolvimento Pessoal,Obrigatória
+16,2,Artes II,Obrigatória
+16,2,Biologia II,Obrigatória
+16,2,Espanhol I,Obrigatória
+16,2,Física II,Obrigatória
+16,2,Geografia II,Obrigatória
+16,2,História II,Obrigatória
+16,2,Matemática II,Obrigatória
+16,2,Português II,Obrigatória
+16,2,Química II,Obrigatória
+16,2,Análise de Circuitos,Obrigatória
+16,2,Desenho Assistido por Computador,Obrigatória
+16,2,Conservação de Energia,Obrigatória
+16,3,Biologia III,Obrigatória
+16,3,Artes III,Obrigatória
+16,3,Eletrônica Básica,Obrigatória
+16,3,Geografia III,Obrigatória
+16,3,Inglês II,Obrigatória
+16,3,Filosofia I,Obrigatória
+16,3,História III,Obrigatória
+16,3,Matemática III,Obrigatória
+16,3,Português III,Obrigatória
+16,3,Química III,Obrigatória
+16,3,Medidas Elétricas,Obrigatória
+16,3,Física III,Obrigatória
+16,4,Biologia IV,Obrigatória
+16,4,Espanhol II,Obrigatória
+16,4,Física IV,Obrigatória
+16,4,Geografia IV,Obrigatória
+16,4,História IV,Obrigatória
+16,4,Matemática IV,Obrigatória
+16,4,Português IV,Obrigatória
+16,4,Química IV,Obrigatória
+16,4,Sociologia I,Obrigatória
+16,4,Eletrônica Digital,Obrigatória
+16,4,Eletricidade Corrente Alternada,Obrigatória
+16,5,Educação Física I,Obrigatória
+16,5,Física V,Obrigatória
+16,5,Matemática V,Obrigatória
+16,5,Português V,Obrigatória
+16,5,Gestão e Empreendedorismo,Obrigatória
+16,5,Transformadores,Obrigatória
+16,5,Instalações Elétricas Prediais,Obrigatória
+16,5,Máquinas de Corrente Contínua,Obrigatória
+16,6,Física VI,Obrigatória
+16,6,Matemática VI,Obrigatória
+16,6,Português VI,Obrigatória
+16,5,Educação Física II,Obrigatória
+16,6,Eletrônica Industrial,Obrigatória
+16,6,Instalações Elétricas Industriais,Obrigatória
+16,6,Máquinas de Corrente Alternada,Obrigatória
+16,6,Subestações Industriais,Obrigatória

@@ -1,0 +1,82 @@
+{
+  "realm": "university",
+  "enabled": true,
+  "roles": {
+    "realm": [
+      { "name": "professor" },
+      { "name": "coordenador" },
+      { "name": "diretor_ensino" },
+      { "name": "admin" }
+    ]
+  },
+  "clients": [
+    {
+      "clientId": "acl-client",
+      "name": "ACL Client",
+      "enabled": true,
+      "protocol": "openid-connect",
+      "publicClient": false,
+      "secret": "acl-secret",
+      "serviceAccountsEnabled": true,
+      "standardFlowEnabled": false,
+      "directAccessGrantsEnabled": true
+    },
+    {
+      "clientId": "painel-integrador",
+      "name": "Painel Integrador",
+      "enabled": true,
+      "protocol": "openid-connect",
+      "publicClient": true,
+      "standardFlowEnabled": true,
+      "directAccessGrantsEnabled": true,
+      "redirectUris": ["http://localhost:8080/*"],
+      "webOrigins": ["http://localhost:8080"]
+    }
+  ],
+  "users": [
+    {
+      "username": "professor.demo",
+      "enabled": true,
+      "email": "professor.demo@ifce.edu.br",
+      "firstName": "Professor",
+      "lastName": "Demo",
+      "realmRoles": ["professor"],
+      "credentials": [
+        { "type": "password", "value": "demo", "temporary": false }
+      ]
+    },
+    {
+      "username": "coordenador.demo",
+      "enabled": true,
+      "email": "coordenador.demo@ifce.edu.br",
+      "firstName": "Coordenador",
+      "lastName": "Demo",
+      "realmRoles": ["coordenador"],
+      "credentials": [
+        { "type": "password", "value": "demo", "temporary": false }
+      ]
+    },
+    {
+      "username": "admin.demo",
+      "enabled": true,
+      "email": "admin.demo@ifce.edu.br",
+      "firstName": "Admin",
+      "lastName": "Demo",
+      "realmRoles": ["admin"],
+      "credentials": [
+        { "type": "password", "value": "demo", "temporary": false }
+      ]
+    },
+    {
+      "username": "diren.demo",
+      "enabled": true,
+      "email": "diren.demo@ifce.edu.br",
+      "firstName": "Diretor",
+      "lastName": "Demo",
+      "realmRoles": ["diretor_ensino"],
+      "credentials": [
+        { "type": "password", "value": "demo", "temporary": false }
+      ]
+    }
+  ]
+}

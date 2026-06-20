@@ -1,0 +1,468 @@
+Nome,codigo,carga horaria,creditos
+Cálculo 1,CAL1,80,4
+Probabilidade e Estatística,PRES,80,4
+Fundamentos de Sistemas de Informação,FSIN,80,4
+Inglês Instrumental,INGI,40,2
+Lógica Matemática,LOGM,40,2
+Tecnologias Web,TWEB,80,4
+Metodologia do Trabalho Científico,MTC,80,4
+Metodologia do Trabalho Científico,MTC,40,2
+Introdução à Administração,INTA,80,4
+Lógica e Linguagem de Programação,LLPR,120,6
+Arquitetura de Computadores,ARQC,80,4
+Redes de Computadores I,REDC1,80,4
+Programação Estruturada e Estrutura de Dados,PEED,80,4
+Gerência de Redes,GERE,80,4
+Banco de Dados I,BD1,80,4
+Introdução à Contabilidade e Finanças,ICF,80,4
+Sistemas Operacionais,SOP,80,4
+Sociologia Aplicada a Ética Profissional,SAEP,40,2
+Design e Multimídia,DEM,40,2
+Processamento Digital de Imagens,PDI,80,4
+Programação Orientada a Objetos,POO,80,4
+Sistemas Distribuídos,SDIS,80,4
+Construção e Análise de Algoritmos,CAA,80,4
+Banco de Dados II,BD2,80,4
+Engenharia de Software,ENGS,80,4
+Interface Homem-Computador,IHC,80,4
+Gerência de Projetos,GERP,40,2
+Legislação e Informática,LINF,40,2
+Programação Web I,PWEB1,80,4
+Comércio Eletrônico,COME,40,2
+Análise e Projeto de Sistemas,APSI,80,4
+Marketing,MKT,40,2
+Projeto Integrador I,PRINT 1,80,4
+Programação Web II,PEWB 2,80,4
+Redes de Computadores II,REDC2,80,4
+Laboratório e Desenvolvimento de Sistemas,LDS,80,4
+Governança de Tecnologia da Informação,GOTI,80,4
+Inteligência Computacional,ICOM,80,4
+Projeto Integrador II,PRINT 2,80,4
+Sistemas de Apoio a Decisão,SAD,80,4
+Auditoria e Segurança de Sistemas de Informação,ASSI,40,2
+Programação para Dispositivos Móveis,PDM,80,4
+Empreendedorismo,EMP,40,2
+Introdução ao Desenvolvimento de Jogos Digitais,IDJD,80,4
+Responsabilidade Social e Ambiental,RSA,40,2
+Trabalho de Conclusão de Curso,TCC,40,2
+Álgebra Linear,ALGL,80,4
+Libras,LBR,80,4
+Libras,LBR,40,2
+Engenharia de Vendas e Negócios de Informática,EVNI,80,4
+Computação Gráfica,CMP,80,4
+Gerenciamento de Projetos em Softwares Livres,GPSL,80,4
+Higiene e Segurança do Trabalho,HST,80,4
+Higiene e Segurança do Trabalho,HSTR,40,2
+Química Geral e Experimental,QGEX,40,2
+Introdução a Engenharia Elétrica,INEE,40,2
+Álgebra Vetorial,ALVE,80,4
+Lógica de Programação,LOPR,80,4
+Desenho Técnico,DTEC,40,2
+Desenho Técnico,DTEC,80,4
+Cálculo 2,CAL2,80,4
+Física 1,FIS1,80,4
+Eletrônica Digital,ELED,80,4
+Cálculo 3,CAL3,80,4
+Física 2,FIS2,80,4
+Materiais Elétricos e Magnéticos,MAEM,80,4
+Sistemas Microprocessados,SMIC,80,4
+Equações Diferenciais,EDIF,80,4
+Cálculo Numérico,CALN,80,4
+Física 3,FIS3,80,4
+Variáveis Complexas,VACO,80,4
+Circuitos Elétricos,CIEL1,80,4
+Resistência dos Materiais,REMA,80,4
+Circuitos Elétricos 2,ENGS,80,4
+Análise de Sinais e Sistema Lineares,ASSL,80,4
+Eletromagnetismo,EMAG,40,4
+Eletrônica 1,ELET1,80,4
+Sistemas de Comunicações,SCOM,80,4
+Sistemas de Controle,SCON,80,4
+Conversão Eletromecânica de Energia,CEME,80,4
+Geração Transmissão e Distribuição de Energia Elétrica,GTDE,80,4
+Eletrônica 2,ELET2,80,4
+Sistemas Elétricos 1,SIS1,80,4
+Instalações Elétricas,INST,120,6
+Máquinas Elétricas 1,MAEL1,120,6
+Eletrônica de Potência 1,ELPO1,80,4
+Fontes Alternativas e Renováveis de Energia,FARE,40,2
+Acionamento de Máquinas Elétricas,ACME,80,4
+Fenômenos de Transportes,FENT,80,4
+Máquinas Elétricas 2,MQE2,80,4
+Transformadores,TFMD,80,4
+Controle Digital,CTDG,80,4
+Instrumentação Eletrônica,INTE,80,4
+Eletrônica de Potência II,ELPO2,80,4
+Sistemas de Automação Industrial I,SAUI1,80,4
+Sistema Elétrico II,SEL2,80,4
+Economia,ECON,40,2
+Projeto Social,PRSO,40,2
+Projeto Social,PRS,80,4
+Introdução ao Direito,INDI,40,2
+Subestações,SUBE,80,4
+Equipamentos Elétricos,EQPE,80,4
+Operação e Controle de Sistemas Elétricos de Potência,OCSEP,80,4
+Redes de Computadores,REDC,80,4
+Circuitos para Comunicação,CRPC,80,4
+Processamento Digital de Sinais,PDSN,80,4
+Sistemas de Automação Industrial II,SAUI2,80,4
+Engenharia Econômica,ENGE,80,4
+Engenharia Econômica,EECO,40,2
+Proteção de Sistemas Elétricos,PSET,80,4
+Qualidade de Energia,QE,80,4
+Técnicas de Alta Tensão,TEAT,80,4
+Projeto de Circuitos Integrados,PRCI,80,4
+Sistemas Embarcados,SEM,80,4
+Sistemas de Aquisição de Dados,SIAD,80,4
+Gerência e Controle de Produção,GCPR,80,4
+Robótica,ROB,80,4
+Artes,ART,40,2
+Educação Física,EDF,40,2
+Sociologia Industrial,SOC,40,2
+Química Geral,QUIM,80,4
+Ética e Cidadania,ETCID,40,2
+Desenho Assistido por Computador,CAD,80,4
+Metrologia,METR,80,4
+Metrologia,METR,60,3
+Metrologia,MET,40,2
+Física Experimental I,FISEXPI,40,2
+Ciências do Ambiente,CIENC,40,2
+Mecânica Geral,MECG,80,4
+Metodologia Científica e Tecnológica,METC,40,2
+Materiais I,MCMI,40,2
+Métodos Numéricos,MNUM,80,4
+Direito para Engenharia,DIR,40,2
+Materiais II,MCMII,80,4
+Processo de Fabricação I,PROCF1,80,4
+Física Experimental II,FISEXP2,80,4
+Optativa,OPT,40,2
+Optativa,OPT,80,4
+Termodinâmica,TERMO,80,4
+Mecânica dos Sólidos,MECS,80,4
+Soldagem,SOL,80,4
+Processos de Fabricação II,PROCF II,80,4
+Ensaios Mecânicos,ENSM,80,4
+Eletrotécnica,ELET,80,4
+Gestão da Manutenção Industrial,GESMI,40,2
+Mecânica dos Fluidos,MECF,80,4
+Sistemas Mecânicos I,SIMEC1,80,4
+Administração e Empreendedorismo,ADME,40,2
+Laboratório de Processos de Fabricação,LBPF,80,4
+Transportadores Industriais,TRIN,40,2
+Transferência de Calor,TRFC,80,4
+Acionamentos Hidráulicos e Pneumáticos,AHP,80,4
+Controle de Qualidade,CQUA,40,2
+Manutenção Industrial,MIND,80,4
+Sistemas Mecânicos II,SIMEC2,40,2
+Máquinas Térmicas e de Fluxo,MTF,80,4
+CNC/CAM,CC,80,4
+Planejamento e Controle da Produção,PCP,80,4
+Tratamentos Térmicos e Termoquímicos,TTT,80,4
+Projeto de Engenharia,PROENG,80,4
+Corrosão e Proteção Anticorrosiva,CPA,80,4
+Tribologia e Lubrificação,TL,40,2
+Máquinas de Elevação,ME,40,2
+Gestão de Projetos,GESP,80,4
+Manufatura Integrada por Componentes,MNIP,40,2
+Refrigeração Industrial,RFI,80,2
+Materiais Compostos,MATC,40,2
+Metalurgia da Soldagem,MTSL,40,2
+Ergonomia,ERG,40,2
+Vibrações Mecânicas,VM,40,2
+Comunicação e Linguagem,CML,40,2
+Energias Renováveis,ENR,40,2
+Eletricidade Corrente Contínua,ELCC,80,4
+Materiais para Construção Mecânica,MCM,80,4
+Eletromagnetismo,ELM,80,4
+Metrologia Dimensional,MET,40,2
+Eletricidade Corrente Alternada,ELCA,80,4
+Elementos de Máquinas,EMAQ,80,4
+Eletrônica Industrial,ELIN,60,3
+Eletrônica Industrial,ELIN,40,2
+Mecanismos,MECN,80,4
+Processo de Fabricação Mecânica,PFM,40,2
+Microcontroladores,MCT,80,4
+Instrumentação,INST,80,4
+Acionamentos de Máquinas I,ACM1,40,2
+Comandos Eletroeletrônicos,CEE,80,4
+Usinagem,USIN,80,4
+Acionamentos de Máquinas II,ACM2,80,4
+Sistemas de Controle Distribuído,SCD,80,4
+Robótica I,ROB1,80,4
+CAM/CNC/CIM,CCC,80,4
+Acionamento Hidráulico e Pneumático,ACHP,80,4
+Projeto de Conclusão de Curso,PCCM,40,2
+Sistema de Supervisão,SSUP,40,2
+Gestão de Manutenção,GEA1,80,4
+Robótica II,ROB2,80,4
+Gestão e Empreendedorismo,GEMP,40,2
+Inteligência Artificial,INA,80,4
+Linguagem de Programação Estruturada,LPE,60,3
+Fundamentos da Educação Superior,FES,40,2
+Educação e Diversidade,ED,20,1
+Metodologia da Pesquisa I,MTP1,20,1
+Estrutura e Funcionamento do Ensino Superior,EFES,40,2
+Metodologia da Pesquisa II,MTP2,20,1
+Fundamentos Psicológicos da Educação,FPE,40,2
+Didática do Ensino Superior,DES,40,2
+Novas Tecnologias e Formação Docente,NTFD,20,1
+Currículo Planejamento e Avaliação Educacional,CPAD,40,2
+Empreendedorismo e Redes de Cooperação em Educação,ERCE,20,1
+Política Gestão e Avaliação do Ensino Superior,PGAES,40,2
+Tópicos Especiais I – Ludicidade na Educação Superior,TE1,20,1
+Tópicos Especiais II – Educação Profissional e Tecnológica,TE2,20,1
+Tópicos Especiais III – Educação a Distância,TE3,20,1
+Comunicação e Linguagem,COML,60,3
+Fundamentos da Matemática I,FMA1,80,4
+Fundamentos Sócio-Filosóficos da Educação,FSFE,40,2
+Geometria Plana e Espacial,GPES,80,4
+Introdução às Ciências,INTC,80,4
+Trigonometria,TRG,40,2
+Desenho Geométrico,DGEO,60,3
+Fundamentos da Matemática II,FMA2,80,4
+Geometria Analítica Plana e Números Complexos,GAPN,80,4
+História da Educação no Brasil,HEB,60,3
+Laboratório do Ensino da Matemática,LEM,40,2
+Estrutura e Funcionamento do Ensino,EFEN,80,4
+Fundamentos da Matemática III,FMA3,80,4
+Geometria Analítica Espacial,GAE,80,4
+Psicologia do Desenvolvimento,PSID,40,2
+Currículos e Programas,CPRO,60,3
+Didática Educacional,DIDE,80,4
+Informática Aplicada ao Ensino,IAE,40,2
+Probabilidades,PROB,60,2
+Estágio I,EST1,20,2
+Estatística,ESTA,40,2
+Programa Residência Pedagógica,PRPE,440,22
+Psicologia da Aprendizagem,PAPR,40,2
+Equações Diferenciais e Séries,EDS,80,4
+Estágio II,EST2,20,2
+Teoria dos Números,TNM,80,4
+Organização e Gestão da Educação Brasileira,OGEP,60,3
+Estágio III,EST3,20,2
+Estruturas Algébricas,EALG,80,4
+Matemática Comercial e Financeira,MATC,40,2
+Metodologia do Ensino da Matemática,MEM,80,4
+Estágio IV,EST4,20,2
+Introdução à Variável Complexa,IVC,80,4
+História da Matemática,HISM,40,2
+Introdução à Análise,INTA,80,4
+Monografia,MONO,80,4
+Física Aplicada,FISA,80,4
+Tópicos de Álgebra,TPA,40,2
+Linguagem de Programação,LPRO,80,4
+Arte de Resolver Problemas,ARP,40,2
+Matemática Computacional,MTCP,40,2
+Educação Inclusiva,EDIC,40,2
+Introdução às Ciências da Natureza I,ICN1,40,2
+Pré-Cálculo,PCAL,80,4
+Introdução à Física I,IFS1,40,2
+Psicologia do Desenvolvimento,PD,80,4
+Fundamentos Filosóficos e Sociológicos da Educação,FFSE,80,4
+Cálculo Diferencial e Integral I,CDI1,80,4
+Geometria Analítica e Álgebra Linear,GAAL,80,4
+Introdução a Física II,INF2,40,2
+Introdução às Ciências da Natureza II,ICN2,40,2
+História da Educação,HD,40,2
+Psicologia da Aprendizagem,PLA,80,4
+Cálculo Diferencial e Integral II,CDI2,80,4
+Mecânica Básica I,MB1,80,4
+Seminário I: Educação Ambiental,SM1,40,2
+Política Educacional,PLE,80,4
+Didática,DIT,80,4
+Cálculo Diferencial e Integral III,CDI3,80,4
+Mecânica Básica II,MB2,80,4
+Física Experimental I,FSE1,40,2
+Metodologia do Ensino da Mecânica,MTEM,40,2
+Cálculo Diferencial e Integral IV,CDI4,80,4
+Eletricidade e Magnetismo I,ELM1,80,4
+Termodinâmica,TERM,80,4
+Metodologia do Ensino de Termodinâmica,MTET,40,2
+Currículos e Programas,CRP,80,4
+Estágio Supervisionado I,EST1,20,2
+Estágio Supervisionado II,EST2,20,2
+Eletricidade e Magnetismo II,ELM2,80,4
+Oscilações e Ondas,OCEO,80,4
+Metodologia do Ensino de Eletricidade e Magnetismo,MEEM,40,2
+Física Experimental II,FSE2,40,2
+Estágio Supervisionado III,EST3,20,2
+Trabalho de Conclusão de Curso I,TCC1,80,4
+Ética,OTC,80,4
+Física Moderna,FSM,80,4
+História da Física,HSF,40,2
+Estágio Supervisionado IV,EST4,20,2
+Introdução à Mecânica Quântica,IMQ,80,4
+Física Experimental III,FSE3,40,2
+Educação Inclusiva,EI,80,4
+Metodologia do Ensino de Ética e Física Moderna,MEOFM,40,2
+Trabalho de Conclusão de Curso II,TCC2,40,2
+Seminários II – Educação Para as Relações Étnico-Raciais,SM2,40,2
+Informática Aplicada ao Ensino da Física,IAEF,80,4
+Eletrodinâmica,ELT,80,4
+Eletrônica Analógica,EA,80,4
+Física Moderna II,FSM2,80,4
+Artes I,ART1,20,1
+Biologia I,BIO1,40,2
+Filosofia I,FL1,20,1
+Física I,FS1,40,2
+Geografia I,GEO1,40,2
+Geografia I,GEO1,20,1
+História I,HST1,20,1
+Inglês I,ING1,40,2
+Português I,PORT1,60,3
+Química I,QUI1,60,3
+Química I,QUI1,40,2
+Introdução ao Curso e Orientação Profissional,ITCOP,40,2
+Matemática I,MT1,60,3
+Artes II,ART2,40,2
+Biologia II,BIO2,40,2
+Espanhol I,ESP1,40,2
+Espanhol I,ESP1,20,1
+Física II,FS2,40,2
+Geografia II,GEO2,40,2
+História II,HST2,20,1
+Matemática II,MT2,60,3
+Português II,PORT2,60,3
+Química II,QUI2,60,3
+Sociologia I,SOC1,20,1
+Técnicas de Manutenção,TECM,40,2
+Educação Física I,EDF1,40,2
+Educação Física II,EDF2,40,2
+Educação Física III,EDF3,40,2
+Educação Física IV,EDF4,40,2
+Educação Física V,EDF5,40,2
+Educação Física VI,EDF6,40,2
+Biologia III,ELM1,40,2
+Artes III,ART3,20,1
+Artes IV,ART4,20,1
+Filosofia II,FL2,20,1
+Filosofia III,FL3,20,1
+Geografia III,GEO3,40,2
+Inglês II,ING2,40,2
+História III,HST3,20,1
+Matemática III,MT3,60,3
+Português III,PORT3,60,3
+Química III,QUI3,60,3
+Análise de Circuitos,ANC,80,4
+Física III,FS3,40,2
+Biologia IV,BIO4,40,2
+Espanhol II,ESP2,40,2
+Física IV,FS4,40,2
+Geografia IV,GEO4,20,1
+Geografia V,GEO5,20,1
+História IV,HST4,40,2
+História V,HST5,40,2
+Matemática IV,MT4,60,3
+Português IV,PORT4,60,3
+Química IV,QUI4,40,2
+Sociologia II,SOC2,20,1
+Eletrônica Básica,ELB,80,4
+Física V,FS4,40,2
+Biologia V,BIO5,40,2
+Biologia V,BIO5,20,1
+Espanhol IV,ESP4,20,1
+Inglês III,ING3,40,2
+Matemática V,MT5,60,3
+Português V,PORT5,60,3
+Química V,QUI5,20,1
+Comandos Elétricos,CME,80,4
+Transformadores,TRF,60,3
+Transformadores,TRF,40,2
+Medidas Elétricas,MDE,40,2
+Biologia VI,BIO6,40,2
+Física VI,FS6,40,2
+Geografia VI,GEO6,20,1
+História VI,HST6,40,2
+História VI,HST6,20,1
+Matemática VI,MT6,60,3
+Português VI,PORT6,60,3
+Química VI,QUI6,20,1
+Redes Industriais,REIT,40,2
+Sensores e Transdutores,SETR,40,2
+Máquinas de Corrente Alternada,MCA,80,4
+Subestações Industriais,SBI,40,2
+Sistemas de Potência,SPOT,80,4
+Espanhol III,ESP3,40,2
+Sociologia III,SOC3,20,1
+Conservação de Energia,COEN,40,2
+Máquinas de Corrente Contínua,MQCC,40,2
+Introdução a Lógica de Programação,ILPRO,40,2
+Arquitetura Montagem e Manutenção de Computadores,ARQM,80,4
+Introdução a Estrutura de Dados,IED,80,4
+Sistemas Operacionais,SO,40,2
+Banco de Dados,BD,80,4
+Programação WEB,PWEB,80,4
+Administração de Redes com Software Livre,ADRSL,80,4
+Estágio,EST,200,10
+Laboratório de Desenvolvimento de Software,LDS,80,4
+Manutenção de Máquinas e Equipamentos,MMEQ,60,3
+Máquinas Hidráulicas e Pneumáticas,MHP,60,3
+Tecnologia Mecânica,TECM,80,4
+Máquinas Térmicas,MAQT,40,2
+Tecnologia da Soldagem,TSOL,80,4
+Comandos Elétricos,CELE,40,2
+Ensaios Mecânicos,EMAT,40,2
+Mecanismos,MECN,40,2
+Robótica Industrial,ROBI,60,3
+Eletricidade Aplicada,ELAP,40,2
+Informática Básica,INFB,40,2
+Mecânica Geral,MECG,40,2
+Bombas Hidráulicas e Compressores,BHC,60,3
+Análise de Circuitos CC,ACCC,60,3
+Matemática Aplicada,MATA,40,2
+Análise de Circuitos CA,ANCA,80,4
+Controle e Planejamento de Manutenção,CPMT,40,2
+Eletrônica Básica,ELBA,80,4
+Eletromagnetismo Aplicado,ELMA,40,2
+Gerenciamento de Energia,GERE,60,3
+Instalações Elétricas Prediais,IEPR,80,4
+Instalações Elétricas em Baixa Tensão,IEBT,80,4
+Automação Industrial,AUTI,80,4
+Máquinas Elétricas,MAQE,80,4
+Eletrônica de Potência,ELTP,40,2
+Redes de Distribuição,REDS,60,3
+Comunicação e Redação Empresarial,CRE,40,2
+Informática e Tecnologias Aplicadas,IFTA,40,2
+Gestão de Pessoas,GESP,80,4
+Aspectos Legais de Gestão Empresarial,ALGE,40,2
+Matemática Básica e Lógica Matemática,MBLM,40,2
+Empreendedorismo e Inovação I,EMI1,40,2
+Administração Estratégica,ADME,40,2
+Marketing Digital,MKTD,80,4
+Empreendedorismo e Inovação II,EMI2,40,2
+Matemática Financeira,MTF,40,2
+Contabilidade Geral,CNTB,40,2
+Gestão Financeira,GSTF,40,2
+Logística,LOG,40,2
+Gestão de Processos e Qualidade,GSPQ,40,2
+Arte Educação Cultural e Música,AECM,40,2
+Estágio Supervisionado,ESTS,400,20
+Instalações Elétricas Industriais,IEIND,60,3
+Desenvolvimento Pessoal,DESP,40,2
+Automatização Industrial,AUTO,60,3
+Prática Profissional Supervisionada,PPS,40,2
+Refrigeração Básica,REFB,40,2
+Fundamentos da Administração,FADM,40,2
+Eletrônica Industrial,ELIN,80,4
+Desenho Assistido por Computador,CAD,40,2
+Matemática Comercial e Financeira,MATC,80,4
+Elementos de Máquinas,EMAQ,40,2
+Manutenção de Máquinas e Equipamentos,MMEQ,60,3
+CAM/CNC/CIM,CCC,40,2
+Planejamento e Controle da Produção,PCP,40,2
+Gerenciamento de Energia,GERE,40,2
+Automação Industrial,AUTI,40,2
+Introdução a Finanças Pessoais,INFP,40,2
+Fundamentos da Administração,FADM,80,4
+Química II,QUI2,20,1
+Biologia II,BIO2,20,1
+Matemática II,MT2,40,2
+Espanhol II,ESP2,20,1
+Português II,PORT2,40,2
+Artes II,ART2,20,1
+História IV,HST4,20,1
+Química IV,QUI4,20,1
+Biologia IV,BIO4,20,1
+Matemática IV,MT4,40,2
+Português IV,PORT4,40,2
+Geografia II,GEO2,20,1

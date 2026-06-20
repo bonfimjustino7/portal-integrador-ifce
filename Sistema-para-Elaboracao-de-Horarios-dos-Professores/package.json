@@ -1,0 +1,38 @@
+{
+  "name": "print-ii-ifce-cedro-horarios-professores",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install",
+    "migrate": "cd server && npx sequelize-cli db:migrate && echo Migration",
+    "migrate-seeds": "cd server && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all && echo Migration + seeds",
+    "undo": "cd server && npx sequelize-cli db:migrate:undo:all && echo banco reiniciado"
+  },
+  "keywords": [
+    "print",
+    "ii",
+    "ifce",
+    "cedro",
+    "horario",
+    "professores",
+    "sistema",
+    "organização"
+  ],
+  "author": "André Casimiro da Silva, Daniel Teixeira da Silva, João Alberto Almeida de Deus, Vicencya Nayara e Raimundo Gabriel Pereira Ferreira.",
+  "license": "ISC",
+  "description": "Sistema de Organização dos horários dos professores do IFCE campus Cedro",
+  "dependencies": {
+    "all": "^0.0.0",
+    "concurrently": "^9.1.2",
+    "express": "^4.21.2",
+    "print-ii-ifce-cedro-horarios-professores": "file:",
+    "react-scripts": "^5.0.1",
+    "sequelize": "^6.37.7",
+    "sequelize-cli": "^6.6.3",
+    "Sistema-para-Elaboracao-deHorarios-dos-Professores": "file:"
+  }
+}

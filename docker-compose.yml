@@ -1,0 +1,90 @@
+services:
+  acl:
+    build: ./acl
+    ports:
+      - "8080:8080"
+    environment:
+      PORT: 8080
+      KEYCLOAK_URL: http://keycloak:8080
+      KEYCLOAK_REALM: university
+      KEYCLOAK_CLIENT_ID: acl-client
+      KEYCLOAK_CLIENT_SECRET: acl-secret
+      LEGACY_SERVER_URL: http://legacy-server:5001
+      LEGACY_CLIENT_URL: http://legacy-client:3000
+      INTERNAL_API_KEY: dev-internal-api-key
+      JWT_SECRET: dev-jwt-secret
+      JWT_EXPIRES_IN: 8h
+    depends_on:
+      - legacy-server
+      - legacy-client
+      - keycloak
+
+  legacy-client:
+    build:
+      context: ./Sistema-para-Elaboracao-de-Horarios-dos-Professores/client
+    environment:
+      HOST: 0.0.0.0
+      PORT: 3000
+      WDS_SOCKET_PORT: 8080
+      REACT_APP_API_BASE_URL: http://localhost:8080/api
+    expose:
+      - "3000"
+    depends_on:
+      - legacy-server
+
+  legacy-server:
+    build:
+      context: ./Sistema-para-Elaboracao-de-Horarios-dos-Professores/server
+    environment:
+      NODE_ENV: development
+      PORT: 5001
+      DB_USERNAME: horario_user
+      DB_PASSWORD: horario_password
+      DB_DATABASE_DEVELOPMENT: horario_professor_dev
+      DB_DATABASE_TEST: horario_professor_test
+      DB_DATABASE_PRODUCTION: horario_professor_prod
+      DB_HOST: legacy-db
+      DB_DIALECT: mysql
+      JWT_SECRET: dev-jwt-secret
+      INTERNAL_API_KEY: dev-internal-api-key
+      EMAIL_HOST: smtp.gmail.com
+      EMAIL_PORT: 587
+      EMAIL_SECURE: "false"
+      EMAIL_USER: dev@example.com
+      EMAIL_PASSWORD: dev-password
+      EMAIL_FROM: "Horario Dev"
+    expose:
+      - "5001"
+    depends_on:
+      legacy-db:
+        condition: service_healthy
+
+  legacy-db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: root-password
+      MYSQL_DATABASE: horario_professor_dev
+      MYSQL_USER: horario_user
+      MYSQL_PASSWORD: horario_password
+    volumes:
+      - legacy-db-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-proot-password"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:25.0
+    command: ["start-dev", "--import-realm", "--hostname=http://keycloak:8080"]
+    ports:
+      - "8180:8080"
+      - "9000:9000"
+    environment:
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+    volumes:
+      - ./keycloak:/opt/keycloak/data/import
+
+volumes:
+  legacy-db-data:
