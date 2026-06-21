@@ -17,7 +17,13 @@ export default function Sidebar({ activePage, onNavigate }) {
       >
         Sistemas
       </button>
-      <a href="/mfe/stub">MFE exemplo</a>
+      <button
+        type="button"
+        className={activePage === 'angular-mfe' ? 'active' : ''}
+        onClick={() => onNavigate('angular-mfe')}
+      >
+        Modulo Angular
+      </button>
     </aside>
   );
 }

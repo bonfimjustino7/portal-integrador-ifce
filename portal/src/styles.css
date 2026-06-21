@@ -185,6 +185,10 @@ a {
   padding: 14px;
 }
 
+#angular-mfe-root {
+  min-height: 220px;
+}
+
 @media (max-width: 760px) {
   .navbar,
   .user-area {
