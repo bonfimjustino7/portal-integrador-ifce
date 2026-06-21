@@ -1,5 +1,11 @@
-import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+
+type AngularDemoSummary = {
+  name: string;
+  type: string;
+  status: string;
+};
 
 @Component({
   selector: 'portal-angular-demo',
@@ -30,7 +36,22 @@ import { CommonModule } from '@angular/common';
           <dt>Integracao</dt>
           <dd>Lazy load</dd>
         </div>
+        <div>
+          <dt>BFF</dt>
+          <dd>{{ bffLabel }}</dd>
+        </div>
       </dl>
+
+      <div class="bff-panel" [class.error]="summaryState === 'error'">
+        <span class="eyebrow">Dados do BFF</span>
+        <ng-container [ngSwitch]="summaryState">
+          <p *ngSwitchCase="'loading'">Consultando o BFF do microfrontend...</p>
+          <p *ngSwitchCase="'error'">{{ errorMessage }}</p>
+          <p *ngSwitchDefault>
+            {{ summary?.name }} esta {{ summary?.status }} como {{ summary?.type }}.
+          </p>
+        </ng-container>
+      </div>
     </section>
   `,
   styles: [
@@ -43,6 +64,19 @@ import { CommonModule } from '@angular/common';
         gap: 24px;
         grid-template-columns: minmax(0, 1.6fr) minmax(240px, 0.8fr);
         padding: 24px;
+      }
+
+      .bff-panel {
+        background: #eef4ff;
+        border: 1px solid #c9ddff;
+        border-radius: 8px;
+        grid-column: 1 / -1;
+        padding: 16px;
+      }
+
+      .bff-panel.error {
+        background: #fff4f4;
+        border-color: #fac8c8;
       }
 
       .eyebrow {
@@ -98,4 +132,40 @@ import { CommonModule } from '@angular/common';
     `,
   ],
 })
-export class AngularDemoComponent {}
+export class AngularDemoComponent implements OnChanges {
+  @Input() bffUrl = 'http://localhost:4101';
+
+  summary: AngularDemoSummary | null = null;
+  summaryState: 'idle' | 'loading' | 'loaded' | 'error' = 'idle';
+  errorMessage = '';
+
+  get bffLabel() {
+    return this.summaryState === 'loaded' ? 'Conectado' : 'Aguardando';
+  }
+
+  ngOnChanges(changes: SimpleChanges) {
+    if (changes['bffUrl']) {
+      void this.loadSummary();
+    }
+  }
+
+  private async loadSummary() {
+    this.summaryState = 'loading';
+    this.errorMessage = '';
+
+    try {
+      const response = await fetch(`${this.bffUrl}/api/angular-demo/summary`);
+      if (!response.ok) {
+        throw new Error(`BFF returned HTTP ${response.status}`);
+      }
+
+      this.summary = (await response.json()) as AngularDemoSummary;
+      this.summaryState = 'loaded';
+    } catch (error) {
+      this.summary = null;
+      this.summaryState = 'error';
+      this.errorMessage = 'Nao foi possivel consultar o BFF do microfrontend Angular.';
+      console.error(error);
+    }
+  }
+}

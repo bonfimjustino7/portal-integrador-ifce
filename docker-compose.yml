@@ -1,11 +1,12 @@
 services:
   portal:
-    build: ./portal
+    build: ./microfrontends/portal/mfc
     ports:
       - "9000:9000"
     environment:
       VITE_BFF_URL: http://localhost:4000
       VITE_ANGULAR_MFE_URL: http://localhost:4201
+      VITE_ANGULAR_BFF_URL: http://localhost:4101
       VITE_KEYCLOAK_URL: http://localhost:8180
       VITE_KEYCLOAK_REALM: university
       VITE_KEYCLOAK_CLIENT_ID: painel-integrador
@@ -15,14 +16,24 @@ services:
       - angular-mfe
 
   angular-mfe:
-    build: ./angular-mfe
+    build: ./microfrontends/angular-demo/mfc
     ports:
       - "4201:4201"
     environment:
       PORT: 4201
+    depends_on:
+      - angular-bff
+
+  angular-bff:
+    build: ./microfrontends/angular-demo/bff
+    ports:
+      - "4101:4101"
+    environment:
+      PORT: 4101
+      CORS_ORIGIN: http://localhost:9000
 
   bff:
-    build: ./bff
+    build: ./microfrontends/portal/bff
     ports:
       - "4000:4000"
     environment:
@@ -36,7 +47,7 @@ services:
       - kong
 
   kong:
-    build: ./kong
+    build: ./api-gateway/kong
     environment:
       KONG_DATABASE: "off"
       KONG_DECLARATIVE_CONFIG: /kong/generated/kong.yml
@@ -54,7 +65,7 @@ services:
       - keycloak
 
   acl:
-    build: ./acl
+    build: ./legados/horarios/acl
     ports:
       - "8080:8080"
     environment:
@@ -75,7 +86,7 @@ services:
 
   legacy-client:
     build:
-      context: ./Sistema-para-Elaboracao-de-Horarios-dos-Professores/client
+      context: ./legados/horarios/sistema/client
     environment:
       HOST: 0.0.0.0
       PORT: 3000
@@ -88,7 +99,7 @@ services:
 
   legacy-server:
     build:
-      context: ./Sistema-para-Elaboracao-de-Horarios-dos-Professores/server
+      context: ./legados/horarios/sistema/server
     environment:
       NODE_ENV: development
       PORT: 5001
@@ -137,7 +148,7 @@ services:
       KEYCLOAK_ADMIN: admin
       KEYCLOAK_ADMIN_PASSWORD: admin
     volumes:
-      - ./keycloak:/opt/keycloak/data/import
+      - ./sso/keycloak:/opt/keycloak/data/import
 
 volumes:
   legacy-db-data:

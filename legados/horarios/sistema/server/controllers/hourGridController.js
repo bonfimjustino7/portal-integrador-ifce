@@ -2,6 +2,11 @@ import { Op } from 'sequelize';
 import db from '../models/index.js';
 import GeneticAlgorithmConstructor from 'geneticalgorithm';
 import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const metricsDir = path.resolve(__dirname, '../../client/src/metrics');
 
 const HourGridController = {
     async generateHour(req, res) {
@@ -1387,7 +1392,7 @@ const HourGridController = {
                 console.log(`Arquivo salvo em: ${caminho}`);
             }
             salvarJsonComoTxt(dados, "log.txt");
-            fs.writeFileSync(`/home/andre/Documentos/s8/tcc/Sistema-para-Elaboracao-de-Horarios-dos-Professores/client/src/metrics/${calendarId}_schedule.json`, JSON.stringify(transformedData, null, 2));
+            fs.writeFileSync(path.join(metricsDir, `${calendarId}_schedule.json`), JSON.stringify(transformedData, null, 2));
             console.log(`Arquivo salvo em: schedule.json`);
             return res.json({
                 data: transformedData,

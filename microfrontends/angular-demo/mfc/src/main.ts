@@ -3,6 +3,7 @@ import { createApplication } from '@angular/platform-browser';
 import { AngularDemoComponent } from './app/angular-demo.component';
 
 type AngularMfeProps = {
+  bffUrl?: string;
   domElement?: HTMLElement;
 };
 
@@ -28,6 +29,7 @@ async function mount(props: AngularMfeProps = {}) {
     environmentInjector: appRef.injector as EnvironmentInjector,
     hostElement,
   });
+  componentRef.setInput('bffUrl', props.bffUrl);
   appRef.attachView(componentRef.hostView);
 }
 

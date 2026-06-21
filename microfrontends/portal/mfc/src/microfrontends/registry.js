@@ -4,6 +4,7 @@ let registered = false;
 let angularBundlePromise;
 
 const angularMfeBaseUrl = import.meta.env.VITE_ANGULAR_MFE_URL || 'http://localhost:4201';
+const angularBffBaseUrl = import.meta.env.VITE_ANGULAR_BFF_URL || 'http://localhost:4101';
 
 export function registerMicrofrontend({ name, activeWhen, loadFunction, customProps = {} }) {
   registerApplication({
@@ -85,6 +86,7 @@ export function registerPortalMicrofrontends() {
         const angularMfe = await loadAngularBundle();
         await angularMfe.mount({
           domElement: document.getElementById('angular-mfe-root'),
+          bffUrl: angularBffBaseUrl,
         });
       },
       unmount: async () => {
