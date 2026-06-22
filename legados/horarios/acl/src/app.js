@@ -3,6 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import config from './config.js';
 import exchangeRoutes from './routes/exchange.js';
+import integrationRoutes from './routes/integration.js';
 import apiProxy from './middleware/apiProxy.js';
 import frontendProxy from './middleware/frontendProxy.js';
 
@@ -16,6 +17,7 @@ app.get('/health', (_req, res) => {
 });
 
 app.use(exchangeRoutes);
+app.use(integrationRoutes);
 
 app.get('/auth-bridge', (_req, res) => {
   res.sendFile(path.join(__dirname, 'static', 'auth-bridge.html'));

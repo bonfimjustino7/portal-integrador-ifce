@@ -5,6 +5,7 @@ import { AngularDemoComponent } from './app/angular-demo.component';
 type AngularMfeProps = {
   bffUrl?: string;
   domElement?: HTMLElement;
+  getSsoToken?: () => string | Promise<string>;
 };
 
 let appRef: ApplicationRef | null = null;
@@ -30,6 +31,7 @@ async function mount(props: AngularMfeProps = {}) {
     hostElement,
   });
   componentRef.setInput('bffUrl', props.bffUrl);
+  componentRef.setInput('getSsoToken', props.getSsoToken);
   appRef.attachView(componentRef.hostView);
 }
 

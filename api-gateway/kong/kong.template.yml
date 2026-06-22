@@ -13,6 +13,16 @@ services:
           - GET
           - POST
           - OPTIONS
+  - name: professor-complements
+    url: http://professor-complements-service:4300
+    routes:
+      - name: professor-complements-api
+        paths:
+          - /gateway/professor-complements
+        strip_path: true
+        methods:
+          - GET
+          - OPTIONS
 
 plugins:
   - name: jwt

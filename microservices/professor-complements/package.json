@@ -1,5 +1,5 @@
 {
-  "name": "angular-demo-bff",
+  "name": "professor-complements-service",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -7,8 +7,8 @@
     "start": "node src/app.js"
   },
   "dependencies": {
-    "axios": "^1.7.9",
-    "cors": "^2.8.5",
-    "express": "^4.21.2"
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5"
   }
 }

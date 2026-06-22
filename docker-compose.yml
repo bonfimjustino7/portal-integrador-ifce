@@ -31,6 +31,11 @@ services:
     environment:
       PORT: 4101
       CORS_ORIGIN: http://localhost:9000
+      KONG_URL: http://kong:8000
+      LEGACY_PROFESSORS_PATH: /gateway/horarios/sistema/horarios-professores/integration/professors
+      PROFESSOR_COMPLEMENTS_PATH: /gateway/professor-complements/api/professor-complements
+    depends_on:
+      - kong
 
   bff:
     build: ./microfrontends/portal/bff
@@ -63,6 +68,37 @@ services:
     depends_on:
       - acl
       - keycloak
+      - professor-complements-service
+
+  professor-complements-service:
+    build: ./microservices/professor-complements
+    environment:
+      PORT: 4300
+      DB_HOST: professor-complements-db
+      DB_PORT: 3306
+      DB_USER: professor_complements_user
+      DB_PASSWORD: professor_complements_password
+      DB_DATABASE: professor_complements
+    expose:
+      - "4300"
+    depends_on:
+      professor-complements-db:
+        condition: service_healthy
+
+  professor-complements-db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: professor-complements-root-password
+      MYSQL_DATABASE: professor_complements
+      MYSQL_USER: professor_complements_user
+      MYSQL_PASSWORD: professor_complements_password
+    volumes:
+      - professor-complements-db-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-pprofessor-complements-root-password"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
 
   acl:
     build: ./legados/horarios/acl
@@ -152,3 +188,4 @@ services:
 
 volumes:
   legacy-db-data:
+  professor-complements-db-data:

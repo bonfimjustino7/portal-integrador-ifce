@@ -1,4 +1,5 @@
 import { registerApplication } from 'single-spa';
+import { getToken } from '../keycloak.js';
 
 let registered = false;
 let angularBundlePromise;
@@ -87,6 +88,7 @@ export function registerPortalMicrofrontends() {
         await angularMfe.mount({
           domElement: document.getElementById('angular-mfe-root'),
           bffUrl: angularBffBaseUrl,
+          getSsoToken: getToken,
         });
       },
       unmount: async () => {
