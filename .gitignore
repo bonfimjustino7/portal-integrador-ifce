@@ -1,0 +1,31 @@
+# Agent-local files
+AGENTS.md
+.agents/
+.codex/
+.specs/
+docs/
+
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
