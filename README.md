@@ -54,6 +54,23 @@ Depois de subir os containers, acesse:
 - Microfrontend Angular: http://localhost:4201
 - BFF Angular: http://localhost:4101
 
+## Banco legado e seeds
+
+O primeiro `docker compose up -d --build` nao executa automaticamente migrations nem seeds do sistema legado de horarios. O servico `legacy-server` inicia apenas a API Node.js, e o banco `legacy-db` cria somente o database vazio configurado pelo MySQL.
+
+Para preparar a base legada, execute as migrations e seeds manualmente via Docker:
+
+```bash
+docker compose exec -T legacy-server npx sequelize-cli db:migrate --config config/config.js --env development
+docker compose exec -T legacy-server npx sequelize-cli db:seed:all --config config/config.js --env development
+```
+
+Para carregar o seed externo de horarios:
+
+```bash
+docker compose exec -T legacy-server npx sequelize-cli db:seed --config config/config.js --env development --seeders-path ex_seed --seed 20250826211001-add-hour-grid.cjs
+```
+
 ## Usuarios de demonstracao
 
 O realm `university` do Keycloak inclui usuarios de demonstracao:
