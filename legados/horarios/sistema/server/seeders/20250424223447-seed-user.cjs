@@ -308,9 +308,9 @@ module.exports = {
       const nameParts = cleanedName.split(' ').filter(part => part.length > 0);
 
       const syntheticDocenteEmailMatch = email.match(/^docente(\d{3})@ifce\.edu\.br$/);
-            const uniqueNameCode = syntheticDocenteEmailMatch
-              ? `DOC${syntheticDocenteEmailMatch[1]}`
-              : generateUniqueNameCode(nameParts, existingNameCodes);
+      const uniqueNameCode = syntheticDocenteEmailMatch
+        ? `DOC${syntheticDocenteEmailMatch[1]}`
+        : generateUniqueNameCode(nameParts, existingNameCodes);
       existingNameCodes.add(uniqueNameCode);
 
       // Adiciona o email do CSV diretamente, sem gerar um novo

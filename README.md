@@ -4,6 +4,10 @@ Portal Integrador e um projeto academico de TCC que demonstra a integracao de si
 
 O sistema legado integrado e o Sistema para Elaboracao de Horarios dos Professores do IFCE Campus Cedro. Ele continua usando sua autenticacao local, enquanto o Portal autentica usuarios pelo Keycloak e troca a identidade SSO por um JWT compativel com o legado.
 
+## Creditos
+
+O sistema legado de horarios utilizado como base neste trabalho foi desenvolvido originalmente por Andre Nemesis e esta disponivel no repositorio [Andre-nemesis/Sistema-para-Elaboracao-de-Horarios-dos-Professores](https://github.com/Andre-nemesis/Sistema-para-Elaboracao-de-Horarios-dos-Professores).
+
 ## Arquitetura
 
 Componentes principais:
