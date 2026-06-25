@@ -46,7 +46,6 @@ type ScheduleGroup = {
 
 type ProfessorsResponse = {
   data: Professor[];
-  complementSourceStatus?: 'available' | 'unavailable';
 };
 
 type ScheduleResponse = {
@@ -61,34 +60,6 @@ type ScheduleResponse = {
   imports: [CommonModule],
   template: `
     <section class="teacher-workspace">
-      <header class="workspace-header">
-        <div>
-          <span class="eyebrow">Angular Microfrontend</span>
-          <h2>Professores integrados por APIs</h2>
-          <p>
-            Dados do legado de horarios combinados com complementos academicos de um
-            microservico novo, sem abrir a interface legada.
-          </p>
-        </div>
-
-        <dl class="source-strip">
-          <div>
-            <dt>Legado</dt>
-            <dd>Horarios</dd>
-          </div>
-          <div>
-            <dt>Novo servico</dt>
-            <dd [class.muted]="complementSourceStatus === 'unavailable'">
-              {{ complementSourceLabel }}
-            </dd>
-          </div>
-          <div>
-            <dt>BFF</dt>
-            <dd>{{ bffLabel }}</dd>
-          </div>
-        </dl>
-      </header>
-
       <div class="state-panel error" *ngIf="professorsState === 'error'">
         {{ errorMessage }}
       </div>
@@ -210,20 +181,12 @@ type ScheduleResponse = {
         gap: 18px;
       }
 
-      .workspace-header,
       .detail-panel,
       .teacher-list,
       .state-panel {
         background: #ffffff;
         border: 1px solid #d9e1ee;
         border-radius: 8px;
-      }
-
-      .workspace-header {
-        display: grid;
-        gap: 20px;
-        grid-template-columns: minmax(0, 1.5fr) minmax(260px, 0.8fr);
-        padding: 22px;
       }
 
       .eyebrow {
@@ -234,18 +197,11 @@ type ScheduleResponse = {
         text-transform: uppercase;
       }
 
-      h2,
       h3,
       h4,
       h5,
       p {
         margin: 0;
-      }
-
-      h2 {
-        color: #172033;
-        font-size: 24px;
-        margin-top: 8px;
       }
 
       h3 {
@@ -275,13 +231,6 @@ type ScheduleResponse = {
         margin-top: 10px;
       }
 
-      .source-strip {
-        display: grid;
-        gap: 10px;
-        margin: 0;
-      }
-
-      .source-strip div,
       .complement-block dl div {
         background: #f4f7fb;
         border: 1px solid #d9e1ee;
@@ -447,7 +396,6 @@ type ScheduleResponse = {
       }
 
       @media (max-width: 900px) {
-        .workspace-header,
         .content-grid {
           grid-template-columns: 1fr;
         }
@@ -468,17 +416,8 @@ export class AngularDemoComponent implements OnChanges {
   schedule: ScheduleGroup[] = [];
   professorsState: 'idle' | 'loading' | 'loaded' | 'error' = 'idle';
   scheduleState: 'idle' | 'loading' | 'loaded' | 'error' = 'idle';
-  complementSourceStatus: 'available' | 'unavailable' = 'available';
   errorMessage = '';
   scheduleErrorMessage = '';
-
-  get bffLabel() {
-    return this.professorsState === 'loaded' ? 'Conectado' : 'Aguardando';
-  }
-
-  get complementSourceLabel() {
-    return this.complementSourceStatus === 'available' ? 'Complementos' : 'Indisponivel';
-  }
 
   ngOnChanges(changes: SimpleChanges) {
     if (changes['bffUrl'] || changes['getSsoToken']) {
@@ -547,7 +486,6 @@ export class AngularDemoComponent implements OnChanges {
 
       const payload = (await response.json()) as ProfessorsResponse;
       this.professors = payload.data || [];
-      this.complementSourceStatus = payload.complementSourceStatus || 'available';
       this.professorsState = 'loaded';
 
       if (this.professors.length > 0) {

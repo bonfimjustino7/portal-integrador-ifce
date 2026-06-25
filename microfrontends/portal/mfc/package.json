@@ -12,6 +12,7 @@
     "@vitejs/plugin-react": "^4.3.4",
     "axios": "^1.7.9",
     "keycloak-js": "^25.0.6",
+    "lucide-react": "^0.468.0",
     "single-spa": "^6.0.3",
     "single-spa-react": "^6.0.2",
     "vite": "^6.0.7",

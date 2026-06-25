@@ -174,7 +174,17 @@ a {
   font-weight: 700;
   height: 42px;
   justify-content: center;
-  width: 82px;
+  width: 42px;
+}
+
+.system-icon svg {
+  fill: none;
+  height: 24px;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+  width: 24px;
 }
 
 .notice {

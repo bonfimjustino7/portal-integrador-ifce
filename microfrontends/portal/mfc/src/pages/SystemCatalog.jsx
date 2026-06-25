@@ -1,5 +1,30 @@
 import React, { useEffect, useState } from 'react';
+import { CalendarClock } from 'lucide-react';
 import bffClient from '../services/bffClient.js';
+
+const catalogIcons = {
+  schedule: CalendarClock,
+};
+
+function getIconFallback(system) {
+  return (system.name || system.slug || '?')
+    .split(/[\s-]+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((word) => word[0])
+    .join('')
+    .toUpperCase();
+}
+
+function CatalogIcon({ system }) {
+  const Icon = catalogIcons[system.icon];
+
+  return (
+    <div className="system-icon" aria-label={`Icone de ${system.name}`}>
+      {Icon ? <Icon aria-hidden="true" /> : getIconFallback(system)}
+    </div>
+  );
+}
 
 export default function SystemCatalog() {
   const [systems, setSystems] = useState([]);
@@ -67,7 +92,7 @@ export default function SystemCatalog() {
         <div className="system-grid">
           {systems.map((system) => (
             <article className={!system.accessible ? 'system-card disabled' : 'system-card'} key={system.slug}>
-              <div className="system-icon">{system.icon}</div>
+              <CatalogIcon system={system} />
               <h2>{system.name}</h2>
               <p>{system.description}</p>
               <button
